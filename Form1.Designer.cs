@@ -47,12 +47,13 @@
             // 
             // del_dept
             // 
-            this.del_dept.Location = new System.Drawing.Point(386, 292);
+            this.del_dept.Location = new System.Drawing.Point(12, 180);
             this.del_dept.Name = "del_dept";
             this.del_dept.Size = new System.Drawing.Size(361, 93);
             this.del_dept.TabIndex = 1;
             this.del_dept.Text = "Delete Department";
             this.del_dept.UseVisualStyleBackColor = true;
+            this.del_dept.Click += new System.EventHandler(this.del_dept_Click);
             // 
             // view_dept
             // 
@@ -74,13 +75,15 @@
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button5.Location = new System.Drawing.Point(902, 266);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(221, 219);
             this.button5.TabIndex = 4;
             this.button5.Text = "GO BACK";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // DepartmentModule

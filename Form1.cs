@@ -31,5 +31,10 @@ namespace HRM
         {
 
         }
+
+        private void del_dept_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
