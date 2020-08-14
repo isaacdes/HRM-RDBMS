@@ -47,7 +47,7 @@
             // 
             // del_dept
             // 
-            this.del_dept.Location = new System.Drawing.Point(12, 180);
+            this.del_dept.Location = new System.Drawing.Point(386, 297);
             this.del_dept.Name = "del_dept";
             this.del_dept.Size = new System.Drawing.Size(361, 93);
             this.del_dept.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button5.Location = new System.Drawing.Point(902, 266);
+            this.button5.Location = new System.Drawing.Point(950, 475);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(221, 219);
             this.button5.TabIndex = 4;
