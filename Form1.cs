@@ -24,7 +24,8 @@ namespace HRM
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Add_Dept b1 = new Add_Dept();
+            b1.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)

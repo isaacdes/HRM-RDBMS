@@ -43,7 +43,8 @@
             this.add_dept.TabIndex = 0;
             this.add_dept.Text = "Add Department";
             this.add_dept.UseVisualStyleBackColor = true;
-            this.add_dept.Click += new System.EventHandler(this.button1_Click);
+            this.add_dept.Click += new System.EventHandler(this.DepartmentModule_Load);
+            this.add_dept.Enter += new System.EventHandler(this.button1_Click);
             // 
             // del_dept
             // 

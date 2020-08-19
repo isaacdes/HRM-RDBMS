@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(320, 166);
+            this.label1.Location = new System.Drawing.Point(367, 159);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 13);
             this.label1.TabIndex = 1;
@@ -98,11 +98,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(320, 66);
+            this.label3.Location = new System.Drawing.Point(261, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Department Name";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
