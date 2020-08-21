@@ -15,6 +15,7 @@ namespace HRM
         public Add_Dept()
         {
             InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,6 +46,13 @@ namespace HRM
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+           // this.Close();
+            DepartmentModule b2 = new DepartmentModule();
+            b2.ShowDialog();
         }
     }
 }

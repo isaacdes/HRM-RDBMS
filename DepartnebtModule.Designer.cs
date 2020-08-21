@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.add_dept = new System.Windows.Forms.Button();
+            this.add_dept_form = new System.Windows.Forms.Button();
             this.del_dept = new System.Windows.Forms.Button();
             this.view_dept = new System.Windows.Forms.Button();
             this.edit_dept = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // add_dept
+            // add_dept_form
             // 
-            this.add_dept.Location = new System.Drawing.Point(386, 59);
-            this.add_dept.Name = "add_dept";
-            this.add_dept.Size = new System.Drawing.Size(361, 93);
-            this.add_dept.TabIndex = 0;
-            this.add_dept.Text = "Add Department";
-            this.add_dept.UseVisualStyleBackColor = true;
-            this.add_dept.Click += new System.EventHandler(this.DepartmentModule_Load);
-            this.add_dept.Enter += new System.EventHandler(this.button1_Click);
+            this.add_dept_form.Location = new System.Drawing.Point(386, 59);
+            this.add_dept_form.Name = "add_dept_form";
+            this.add_dept_form.Size = new System.Drawing.Size(361, 93);
+            this.add_dept_form.TabIndex = 0;
+            this.add_dept_form.Tag = "";
+            this.add_dept_form.Text = "Add Department";
+            this.add_dept_form.UseVisualStyleBackColor = true;
+            this.add_dept_form.Click += new System.EventHandler(this.DepartmentModule_Load);
+            this.add_dept_form.Enter += new System.EventHandler(this.button1_Click);
             // 
             // del_dept
             // 
@@ -64,6 +65,7 @@
             this.view_dept.TabIndex = 2;
             this.view_dept.Text = "View Departments";
             this.view_dept.UseVisualStyleBackColor = true;
+            this.view_dept.Click += new System.EventHandler(this.view_dept_Click);
             // 
             // edit_dept
             // 
@@ -73,6 +75,7 @@
             this.edit_dept.TabIndex = 3;
             this.edit_dept.Text = "Edit Department";
             this.edit_dept.UseVisualStyleBackColor = true;
+            this.edit_dept.Click += new System.EventHandler(this.edit_dept_Click);
             // 
             // button5
             // 
@@ -96,7 +99,7 @@
             this.Controls.Add(this.edit_dept);
             this.Controls.Add(this.view_dept);
             this.Controls.Add(this.del_dept);
-            this.Controls.Add(this.add_dept);
+            this.Controls.Add(this.add_dept_form);
             this.Name = "DepartmentModule";
             this.Text = "Department";
             this.Load += new System.EventHandler(this.DepartmentModule_Load);
@@ -106,7 +109,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button add_dept;
+        private System.Windows.Forms.Button add_dept_form;
         private System.Windows.Forms.Button del_dept;
         private System.Windows.Forms.Button view_dept;
         private System.Windows.Forms.Button edit_dept;
