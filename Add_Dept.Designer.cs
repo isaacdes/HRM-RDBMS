@@ -57,7 +57,7 @@
             this.label1.Size = new System.Drawing.Size(93, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Department Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+//            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -74,7 +74,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(171, 20);
             this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+//            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
             // 
@@ -96,7 +96,7 @@
             this.button5.Text = "GO BACK";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+//            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label3
             // 
@@ -106,7 +106,7 @@
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Department Name";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+        //    this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -123,7 +123,7 @@
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "Department No";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+           // this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -151,7 +151,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Add_Dept";
             this.Text = "Add_Dept";
-            this.Load += new System.EventHandler(this.Add_Dept_Load);
+//            this.Load += new System.EventHandler(this.Add_Dept_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

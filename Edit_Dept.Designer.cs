@@ -56,7 +56,7 @@
             this.button5.Text = "GO BACK";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+//            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label1
             // 
@@ -66,7 +66,7 @@
             this.label1.Size = new System.Drawing.Size(100, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Choose Dept Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+//            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // comboBox1
             // 
@@ -132,7 +132,7 @@
             this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 15;
             this.label5.Text = "Old Details";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+//            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBox4
             // 
@@ -195,7 +195,7 @@
             this.Controls.Add(this.button5);
             this.Name = "Edit_Dept";
             this.Text = "Edit_Dept";
-            this.Load += new System.EventHandler(this.Edit_Dept_Load);
+///            this.Load += new System.EventHandler(this.Edit_Dept_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
