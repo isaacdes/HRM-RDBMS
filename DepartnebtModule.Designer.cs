@@ -44,8 +44,6 @@
             this.add_dept_form.Tag = "";
             this.add_dept_form.Text = "Add Department";
             this.add_dept_form.UseVisualStyleBackColor = true;
-//            this.add_dept_form.Click += new System.EventHandler(this.DepartmentModule_Load);
-//            this.add_dept_form.Enter += new System.EventHandler(this.button1_Click);
             // 
             // del_dept
             // 
@@ -55,7 +53,6 @@
             this.del_dept.TabIndex = 1;
             this.del_dept.Text = "Delete Department";
             this.del_dept.UseVisualStyleBackColor = true;
-//            this.del_dept.Click += new System.EventHandler(this.del_dept_Click);
             // 
             // view_dept
             // 
@@ -65,7 +62,6 @@
             this.view_dept.TabIndex = 2;
             this.view_dept.Text = "View Departments";
             this.view_dept.UseVisualStyleBackColor = true;
-///            this.view_dept.Click += new System.EventHandler(this.view_dept_Click);
             // 
             // edit_dept
             // 
@@ -75,7 +71,6 @@
             this.edit_dept.TabIndex = 3;
             this.edit_dept.Text = "Edit Department";
             this.edit_dept.UseVisualStyleBackColor = true;
-//            this.edit_dept.Click += new System.EventHandler(this.edit_dept_Click);
             // 
             // button5
             // 
@@ -88,7 +83,6 @@
             this.button5.Text = "GO BACK";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
-//            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // DepartmentModule
             // 
@@ -102,7 +96,6 @@
             this.Controls.Add(this.add_dept_form);
             this.Name = "DepartmentModule";
             this.Text = "Department";
-//            this.Load += new System.EventHandler(this.DepartmentModule_Load);
             this.ResumeLayout(false);
 
         }
