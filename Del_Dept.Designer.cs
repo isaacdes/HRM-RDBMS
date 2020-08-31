@@ -50,7 +50,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(566, 51);
+            this.comboBox1.Location = new System.Drawing.Point(566, 64);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 10;
@@ -58,7 +58,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(386, 59);
+            this.label1.Location = new System.Drawing.Point(412, 72);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 13);
             this.label1.TabIndex = 9;
@@ -66,7 +66,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(566, 334);
+            this.button1.Location = new System.Drawing.Point(566, 373);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(165, 57);
             this.button1.TabIndex = 24;
@@ -78,7 +78,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(386, 229);
+            this.label2.Location = new System.Drawing.Point(412, 290);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(474, 17);
             this.label2.TabIndex = 25;
