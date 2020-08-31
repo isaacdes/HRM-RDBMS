@@ -17,27 +17,5 @@ namespace HRM
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            DepartmentModule b2 = new DepartmentModule();
-            //this.Hide();
-            b2.ShowDialog();
-
-        }
-
-        private void Edit_Dept_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
