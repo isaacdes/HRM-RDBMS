@@ -72,6 +72,12 @@
     <Compile Include="Add_Dept.Designer.cs">
       <DependentUpon>Add_Dept.cs</DependentUpon>
     </Compile>
+    <Compile Include="Del_Dept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Dept.Designer.cs">
+      <DependentUpon>Del_Dept.cs</DependentUpon>
+    </Compile>
     <Compile Include="Edit_Dept.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Add_Dept.resx">
       <DependentUpon>Add_Dept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Dept.resx">
+      <DependentUpon>Del_Dept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Edit_Dept.resx">
       <DependentUpon>Edit_Dept.cs</DependentUpon>
